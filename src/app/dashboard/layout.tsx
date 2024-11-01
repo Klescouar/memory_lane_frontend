@@ -35,7 +35,7 @@ export default function RootLayout({
         >
           <div className="h-screen grid grid-cols-[300px_1fr]">
             <SideBar />
-            <div className="p-4 bg-black">{children}</div>
+            <div className="p-10 bg-black">{children}</div>
           </div>
         </body>
       </UserProvider>
